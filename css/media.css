@@ -1,0 +1,83 @@
+@media (min-width: 320px) and (max-width: 479px) {
+  .wrapper .header {
+    background: url("../img/bg.jpg") no-repeat center center/cover;
+  }
+  .wrapper .header .header__row {
+    padding: 3em 0 3em 3em;
+    justify-content: flex-start;
+    overflow-x: hidden;
+  }
+  .wrapper .header .header__row .header__number {
+    margin-left: 5em;
+  }
+  .wrapper .header .header__row .header__logo p {
+    font-size: 2em;
+  }
+  .wrapper .header .header__row .header__number a {
+    font-size: 1.2em;
+  }
+  .wrapper .header .header__row .header__instagram {
+    display: none;
+  }
+  .wrapper .header .header__row .menu {
+    left: 38%;
+    width: 200px;
+  }
+  .wrapper .header .header__row .menu .menu-btn {
+    left: -25%;
+    width: 50px;
+    height: 50px;
+    top: 0%;
+  }
+  .wrapper .header .header__row .menu .menu-btn span,
+.wrapper .header .header__row .menu .menu-btn span::before,
+.wrapper .header .header__row .menu .menu-btn span::after {
+    width: 30px;
+    margin-left: -15px;
+  }
+  .wrapper .header .header__row .menu .menu-btn:hover::after {
+    opacity: 0;
+  }
+  .wrapper .header .header__row .menu .menu-list > a {
+    padding: 0 2em;
+    font-size: 1.6em;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .wrapper .header .header__offer {
+    padding: 7em 0 0 3em;
+  }
+  .wrapper .header .header__offer h1 {
+    font-size: 3em;
+  }
+  .wrapper .header .header__offer p {
+    font-size: 1.4em;
+    padding: 0 1em 0 0;
+  }
+  .wrapper .header .header__offer a {
+    font-size: 1.4em;
+    padding: 1.1em 2.2em;
+  }
+  .wrapper .header .header__offer a::after {
+    top: 10px;
+    left: 10px;
+    opacity: 1;
+  }
+  .wrapper .header .header__footer {
+    margin-top: 3em;
+  }
+  .wrapper .header .header__footer .video iframe {
+    width: 150px;
+    height: 100px;
+  }
+  .wrapper .header .header__footer .scroll {
+    margin-left: 3em;
+  }
+  .wrapper .header .header__footer .scroll__item {
+    width: 45px;
+    height: 45px;
+  }
+  .wrapper .header .header__footer .scroll__item i {
+    font-size: 1.5em;
+  }
+}

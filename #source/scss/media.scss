@@ -1,0 +1,100 @@
+@media (min-width: 320px) and (max-width: 479px){
+  .wrapper{
+
+    .header{
+      background: url('../img/bg.jpg') no-repeat center center / cover;
+
+      .header__row{
+        padding: 3em 0 3em 3em;
+        justify-content: flex-start;
+        overflow-x: hidden;
+
+        .header__number{
+          margin-left: 5em;
+        }
+
+        .header__logo p{
+          font-size: 2em;
+        }
+        .header__number{
+          a{
+            font-size: 1.2em;
+          }
+        }
+        .header__instagram{
+          display: none;
+        }
+        .menu{
+          left: 38%;
+          width: 200px;
+          .menu-btn{
+            left: -25%;
+            width: 50px;
+            height: 50px;
+            top: 0%;
+
+            span,
+            span::before,
+            span::after{
+              width: 30px;
+              margin-left: -15px;
+            }
+
+            &:hover::after{
+              opacity: 0;
+            }
+          }
+          .menu-list{
+            >a{
+              padding: 0 2em;
+              font-size: 1.6em;
+              text-align: center;
+              line-height: 1.2;
+            }
+          }
+        }
+      }
+      .header__offer{
+        padding: 7em 0 0 3em;
+        h1{
+          font-size: 3em;
+        }
+        p{
+          font-size: 1.4em;
+          padding: 0 1em 0 0;
+        }
+        a{
+          font-size: 1.4em;
+          padding: 1.1em 2.2em;
+
+          &::after{
+            top: 10px;
+            left: 10px;
+            opacity: 1;
+          }
+        }
+      }
+      .header__footer{
+        margin-top: 3em;
+        .video{
+          iframe{
+            width: 150px;
+            height: 100px;
+          }
+        }
+        .scroll{
+          margin-left: 3em;
+
+          &__item{
+            width: 45px;
+            height: 45px;
+
+            i{
+              font-size: 1.5em;
+            }
+          }
+        }
+      }
+    }
+  }
+}
